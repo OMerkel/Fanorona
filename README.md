@@ -65,7 +65,7 @@ capture all captured opponent's checkers are removed immediately.
 
 There are two types of captures, either by approaching or withdrawal.
 If a capturing checker is moved towards an adjacent free field with an opponent's
-checker in straight line of movement it will capture the opponent's checker
+checker in straight line of movement then it will capture the opponent's checker
 and all opponent's checkers following in line until a free space, own checker
 or board edge breaks this line. Here it is capturing the checker or group
 of checkers by approaching these. Alternatively a capturing checker can be
