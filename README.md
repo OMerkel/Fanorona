@@ -10,13 +10,13 @@ Fanorona / Vela - traditional abstract Madagasy strategy board game for two play
 
 <table>
   <tr>
-    <td width='82%'>
+    <td width='84%'>
 <img width='100%' ondragstart='return false;' alt='Game board with algebraic notation, Creative Commons License, This image is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.' src='res/fanorona-board-3200x2400.jpg' />
     </td>
-    <td width='9%'>
+    <td width='8%'>
 <img ondragstart='return false;' alt='Dark checker, Creative Commons License, This image is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.' src='res/dark-pawn256.png' />
     </td>
-    <td width='9%'>
+    <td width='8%'>
 <img ondragstart='return false;' alt='Light checker, Creative Commons License, This image is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.' src='res/light-pawn256.png' />
     </td>
   </tr>
