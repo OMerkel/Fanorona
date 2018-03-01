@@ -53,15 +53,44 @@ Each player initially controls the 22 checkers of own color.
 
 ## Turn Sequence, Moving and Capturing
 
-The player controlling the light checkers moves first.
-Game play alternates between both players.
-Passing a turn is not allowed.
+The player controlling the light checkers moves first. Game play
+alternates between both players. Passing a turn is not allowed.
+In case a series of consecutive captures are performed by the
+same checker on a player's turn this will be denoted as a
+single capturing move.
 
 Capturing is mandatory if possible. In case multiple captures exist
 the active player can freely choose which to perform. On each
 capture all captured opponent's checkers are removed immediately.
 
-@ToDo: Describe moving and capturing...
+There are two types of captures, either by approaching or withdrawal.
+If a capturing checker is moved towards an adjacent free field with an opponent's
+checker in straight line of movement it will capture the opponent's checker
+and all opponent's checkers following in line until a free space, own checker
+or board edge breaks this line. Here it is capturing the checker or group
+of checkers by approaching these. Alternatively a capturing checker can be
+moved in opposite direction onto a free field and captures opponent's single
+or multiple checkers by withdrawal moving away from these in straight line.
+
+If a capturing checker is allowed to continue capturing by additional
+movement of this same checker then the player may decide to continue
+capturing in this same move. On such consecutive captures the player is
+allowed to stop capturing after each movement.
+
+If the current capturing movement results in both opportunities to capture
+some of the opponent's checkers by approach and some other group in
+opposite direction by withdrawal then the player has to decide to capture
+by either approach or withdrawal. The other group of opponent's checkers
+is not captured then.
+
+A consecutive capture is allowed only if the following capture movement is
+performed by change of direction. Additionally on a consecutive capture the
+capturing checker may not be moved onto any field it previously reached in this
+sequence or turn.
+
+A non capturing move is called a <b>Paika</b>. Paika is allowed only if
+no captures can be performed. Then a checker is moved onto an adjacent
+free field following the line pattern.
 
 # Vela Rules
 
