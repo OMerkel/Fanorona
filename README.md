@@ -57,6 +57,10 @@ The player controlling the light checkers moves first.
 Game play alternates between both players.
 Passing a turn is not allowed.
 
+Capturing is mandatory if possible. In case multiple captures exist
+the active player can freely choose which to perform. On each
+capture all captured opponent's checkers are removed immediately.
+
 @ToDo: Describe moving and capturing...
 
 # Vela Rules
