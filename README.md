@@ -1,6 +1,6 @@
 # Fanorona
 
-Fanorona / Vela - traditional abstract Madagasy strategy board game for two players
+Fanorona / Vela - traditional abstract Malagasy strategy board game for two players
 
 # Fanorona Rules
 
