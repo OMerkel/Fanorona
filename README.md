@@ -94,7 +94,32 @@ free field following the line pattern.
 
 # Vela Rules
 
-@ToDo: Describe Vela rules...
+After playing Fanorona traditionally a set of Vela rounds is played.
+This repeats until the player losing the Fanorona round will win a
+Vela game. Then players switch back to regular Fanorona rules again.
+
+In Vela the initial setting is exactly the same as in Fanorona.
+The player losing the previous game (Fanorona or Vela) starts first.
+Turn alternates between players.
+
+Now the Vela is played in two phases. During the first phase only the
+loser of the previous game is capturing just a single checker on his
+turns. While the winner of the previous game is only moving a single
+checker on his turn. This repeats until 17 checkers are captured.
+Consecutive capturing in a sequence of captures is not done in
+this phase of the Vela. Even if a row of the previous winner's
+checkers exists then on either withdrawal or approach only the first
+adjacent checker is captured.
+
+As soon as the previous winner has 5 checkers left on board the
+second Vela game phase starts. Now the Vela game continues with
+exactly same rules known from the regular Fanorona.
+
+The Vela game ends
+
+* with either the player losing all of his checkers losing the Vela, or
+* with the loser from the previous game not being able to capture a single checker during the first phase, or
+* on mutal agreement as a draw.
 
 # 3rd Party Libraries
 
