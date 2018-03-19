@@ -118,7 +118,10 @@ exactly same rules known from the regular Fanorona.
 The Vela game ends
 
 * with either the player losing all of his checkers losing the Vela, or
-* with the loser from the previous game not being able to capture a single checker during the first phase, or
+* with the loser from the previous game not being able to capture 
+  a single checker during the first phase this time winning the Vela
+  (mind that each move of the previous winner **must** leave an
+  opportunity to continue capturing a single checker next), or
 * on mutal agreement as a draw.
 
 # 3rd Party Libraries
