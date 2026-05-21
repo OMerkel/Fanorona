@@ -1,0 +1,23 @@
+{
+  "version": "0.7",
+  "name": "Fanorona and Vela",
+  "description": "Fanorona and Vela board game with UCT AI",
+  "launch_path": "/index.html",
+  "orientation": "landscape-primary",
+  "icons": {
+    "16": "/img/icons/fanorona16.png",
+    "32": "/img/icons/fanorona32.png",
+    "48": "/img/icons/fanorona48.png",
+    "60": "/img/icons/fanorona60.png",
+    "64": "/img/icons/fanorona64.png",
+    "90": "/img/icons/fanorona90.png",
+    "120": "/img/icons/fanorona120.png",
+    "128": "/img/icons/fanorona128.png",
+    "256": "/img/icons/fanorona256.png"
+  },
+  "developer": {
+    "name": "Oliver Merkel",
+    "url": "https://github.com/OMerkel/Fanorona"
+  },
+  "installs_allowed_from": ["*"]
+}

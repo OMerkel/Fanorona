@@ -2,56 +2,49 @@
 
 Fanorona / Vela - traditional abstract Malagasy strategy board game for two players
 
-# Fanorona Rules
+---
 
-<b>Fanorona</b> is a board game.
+## Quick Start
 
-## Game Components
+```sh
+npm install
+node javascript/html5/src/tests/server.js
+npm test
+```
 
-<table>
-  <tr>
-    <td width='84%'>
-<img width='100%' ondragstart='return false;' alt='Game board with algebraic notation, Creative Commons License, This image is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.' src='res/fanorona-board-3200x2400.jpg' />
-    </td>
-    <td width='8%'>
-<img ondragstart='return false;' alt='Dark checker, Creative Commons License, This image is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.' src='res/dark-pawn256.png' />
-    </td>
-    <td width='8%'>
-<img ondragstart='return false;' alt='Light checker, Creative Commons License, This image is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.' src='res/light-pawn256.png' />
-    </td>
-  </tr>
-</table>
+---
 
-The rectangular Fanorona board has fixed dimension of 9 column times 5 row positions.
-Positions on board are connected by a fixed line pattern showing potential
+## Fanorona Rules
+
+**Fanorona** is a board game.
+
+### Game Components
+
+The game uses a 9x5 board with checkers for each player:
+
+![Game board with algebraic notation.](res/fanorona-board-3200x2400.jpg "Game board with algebraic notation")
+![Dark checker.](res/dark-pawn256.png "Dark checker")
+![Light checker.](res/light-pawn256.png "Light checker")
+
+The rectangular Fanorona board has fixed dimension of 9 columns by 5 rows.
+Positions on the board are connected by a fixed line pattern showing potential
 paths of movement for players’ checkers. The checkers are placed on the positions (or
 points) of line intersections in the line pattern. There are two opposing players:
 one is controlling the light checkers and the other is controlling
 the dark checkers.
 
-## Objective
+### Objective
 
 Winning condition is to leave the opponent with no remaining legal moves left according to the rules.
 Game might end in a draw on mutual agreement of both players.
 
-## Initial Starting Position
+### Initial Starting Position
 
-<table>
-  <tr>
-    <td>
-      <img ondragstart='return false;' alt='Fanorona initial board setup, Creative Commons License, This image is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.' src='res/fanorona-initial_setup.jpg' width='100%' />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      Initial board setup of Fanorona
-    </td>
-  </tr>
-</table>
+![Fanorona initial board setup.](res/fanorona-initial_setup.jpg "Fanorona initial board setup, Creative Commons License, This image is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.")
 
-Each player initially controls the 22 checkers of own color.
+Each player initially controls the 22 checkers of their own color.
 
-## Turn Sequence, Moving and Capturing
+### Turn Sequence, Moving and Capturing
 
 The player controlling the light checkers moves first. Game play
 alternates between both players. Passing a turn is not allowed.
@@ -88,13 +81,13 @@ performed by change of direction. Additionally on a consecutive capture the
 capturing checker may not be moved onto any field it previously reached in this
 sequence or turn.
 
-A non capturing move is called a <b>Paika</b>. Paika is allowed only if
+A non-capturing move is called a **Paika**. Paika is allowed only if
 no captures can be performed. Then a checker is moved onto an adjacent
 free field following the line pattern.
 
-# Vela Rules
+## Vela Rules
 
-After playing Fanorona traditionally a set of Vela rounds is played.
+After playing Fanorona, traditionally a set of Vela rounds is played.
 This repeats until the player losing the Fanorona round will win a
 Vela game. Then players switch back to regular Fanorona rules again.
 
@@ -103,9 +96,9 @@ The player losing the previous game (Fanorona or Vela) starts first.
 Turn alternates between players.
 
 Now the Vela is played in two phases. During the first phase only the
-loser of the previous game is capturing just a single checker on his
+loser of the previous game is capturing just a single checker on their
 turns. While the winner of the previous game is only moving a single
-checker on his turn. This repeats until 17 checkers are captured.
+checker on their turn. This repeats until 17 checkers are captured.
 Consecutive capturing in a sequence of captures is not done in
 this phase of the Vela. Even if a row of the previous winner's
 checkers exists then on either withdrawal or approach only the first
@@ -113,25 +106,19 @@ adjacent checker is captured.
 
 As soon as the previous winner has 5 checkers left on board the
 second Vela game phase starts. Now the Vela game continues with
-exactly same rules known from the regular Fanorona.
+exactly the same rules known from the regular Fanorona.
 
-The Vela game ends
+The Vela game ends:
 
-* with either the player losing all of his checkers losing the Vela, or
-* with the loser from the previous game not being able to capture 
+- with either the player losing all of their checkers losing the Vela, or
+- with the loser from the previous game not being able to capture
   a single checker during the first phase this time winning the Vela
   (mind that each move of the previous winner **must** leave an
   opportunity to continue capturing a single checker next), or
-* on mutal agreement as a draw.
+- on mutual agreement as a draw.
 
-# 3rd Party Libraries
+## Credits / Contributors / Authors
 
-* jQuery: MIT licensed, https://github.com/jquery/jquery
-* jQuery Mobile: MIT licensed, https://github.com/jquery/jquery-mobile
-* Raphaël: MIT licensed, https://github.com/DmitryBaranovskiy/raphael
-
-# Credits / Contributors / Authors
-
-* Oliver Merkel
+- Oliver Merkel
 
 _All logos, brands, and trademarks mentioned belong to their respective owners._
