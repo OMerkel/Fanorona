@@ -59,7 +59,7 @@ const initialGrid = () => {
   }
 
   // Center row alternates and center point is empty.
-  grid[2] = [SOUTH, NORTH, SOUTH, NORTH, EMPTY, SOUTH, NORTH, SOUTH, NORTH];
+  grid[2] = [NORTH, SOUTH, NORTH, SOUTH, EMPTY, NORTH, SOUTH, NORTH, SOUTH];
 
   return grid;
 };

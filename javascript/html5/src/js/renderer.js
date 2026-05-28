@@ -531,7 +531,7 @@ export const createRenderer = (container, onCellClick) => {
           ring.setAttribute('stroke', colors.visitedCell);
           ring.setAttribute('stroke-width', '6');
           ring.setAttribute('stroke-dasharray', '6,6');
-          ring.setAttribute('opacity', '0.6');
+          ring.setAttribute('opacity', '0.9');
         } else if (destinationSet.has(key)) {
           ring.setAttribute('fill', colors.destination);
           ring.setAttribute('stroke', colors.destinationStroke);
